@@ -6,10 +6,10 @@
  */
 int main(void)
 {
-	char lowercase_letters[26] = "abcdfghijklmnoprstuvwxyz";
+	char lowercase_letters[24] = "abcdfghijklmnoprstuvwxyz";
 	int x;
 
-	for (x = 0; x < 26; x++)
+	for (x = 0; x < 24; x++)
 	{
 		putchar(lowercase_letters[x]);
 	}
