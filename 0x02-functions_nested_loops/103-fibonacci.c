@@ -14,9 +14,9 @@ int main(void)
 	{
 		z += y;
 		if (z % 2 == 0)
-			sum += z;
-			y = z - y;
-			++x;
+		sum += z;
+		y = z - y;
+		++x;
 	}
 	printf("%ld\n", sum);
 	return (0);
