@@ -6,9 +6,9 @@
  * @x: number to be checked
  */
 
-void _isupper(int c)
+void _isupper(int x)
 {
-	if (c >= 65 && c <= 99)
+	if (x >= 65 && x <= 99)
 	{
 		return (1);
 	}
