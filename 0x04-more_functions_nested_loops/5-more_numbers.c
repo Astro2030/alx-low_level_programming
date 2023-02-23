@@ -5,7 +5,7 @@
  * Return: values 0 - 14 x10
  */
 
-more_numbers(void)
+void more_numbers(void)
 {
 	int m, n;
 
