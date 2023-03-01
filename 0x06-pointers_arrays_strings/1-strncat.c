@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcat - contenates two string
+ * _strncat - contenates two string
  * @dest: input value
  * @src: input value
  * @n: input value
