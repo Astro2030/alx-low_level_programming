@@ -1,5 +1,8 @@
 #include <stdio.h>
-
+/**
+ * main - prints the value of a pointer
+ * Return: a[2] = 98
+ */
 int main(void)
 {
 	int n;
@@ -10,9 +13,6 @@ int main(void)
 	p = &n;
 /*
  * write your line of code here...
- * Remember:
- * - you are not allowed to use a
- * - you are not allowed to modify p
  * - only one statement
  * - you are not allowed to code anything else than this line of code
 */
