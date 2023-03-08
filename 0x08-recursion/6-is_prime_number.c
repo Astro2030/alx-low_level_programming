@@ -1,4 +1,7 @@
 #include "main.h"
+/**
+ * file: 6-is_prime_number.c
+ */
 
 int is_divisible(int num, int div);
 int is_prime_number(int n);
@@ -16,6 +19,5 @@ int is_divisible(int num, int div)
 		return (0);
 	if (div == num / 2)
 		return (1);
-
 	return (is_divisible(num, div + 1));
 }
