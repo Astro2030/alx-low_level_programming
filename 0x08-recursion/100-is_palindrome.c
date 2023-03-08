@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _strlen_recursion - returns the length of a string
+ * is_palindrome - returns the length of a string
  * @s: string
  * Return: the length of a string
  */
 
-int _strlen_recursion(char *s)
+int is_palindrome(char *s)
 {
 	if (*s == '\0')
 		return (0);
@@ -29,7 +29,7 @@ int comparator(char *s, int n1, int n2)
 		{
 			return (1);
 		}
-		return (0 + comparator(s, n1 + 1, n2 - 1));
+		return (0 + is_palindrome(s, n1 + 1, n2 - 1));
 	}
 	return (0);
 }
