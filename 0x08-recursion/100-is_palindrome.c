@@ -11,7 +11,7 @@ int is_palindrome(char *s)
 	if (*s == '\0')
 		return (0);
 	else
-		return (1 + _strlen_recursion(s + 1));
+		return (1 + is_palindrome(s + 1));
 }
 /**
  * comparator - compares each character of the string
