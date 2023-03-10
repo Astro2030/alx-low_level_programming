@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 
 	if (argc < 3)
 	{
-		printf("Usage: %s <number> [<number> ...]\n", argv[0]);
+		printf("%d\n", sum);
 		return (1);
 	}
 
@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 
 		if (*endptr != '\0')
 		{
-			printf("Error: \"%s\" is not a valid number\n", argv[i]);
+			printf("Error\n");
 			return (1);
 		}
 		sum += num;
