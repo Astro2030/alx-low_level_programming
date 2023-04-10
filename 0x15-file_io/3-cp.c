@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-char *create_buffer(char *file);
-void close_file(int fd);
+char *create_buff(char *file);
+void close_file(int g);
 
 /**
  * create_buffer - Allocates 1024 bytes for a buffer.
@@ -11,7 +11,7 @@ void close_file(int fd);
  *
  * Return: A pointer to the newly-allocated buffer.
  */
-char *create_buffer(char *file)
+char *create_buff(char *file)
 {
 	char *buff;
 
